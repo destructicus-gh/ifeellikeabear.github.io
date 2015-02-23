@@ -3,7 +3,7 @@ $( function()
 {
 	$( '#nav li:has(ul)' ).doubleTapToGo();
 });
-var jqxhr = $.get( "example.php", function() {
+var jqxhr = $.get( "menubar.txt", function() {
   alert( "success" );
 })
   .done(function() {
@@ -17,7 +17,6 @@ var jqxhr = $.get( "example.php", function() {
   });
  
 // Perform other work here ...
- 
 // Set another completion function for the request above
 jqxhr.always(function() {
   alert( "second finished" );
