@@ -22,7 +22,9 @@ a{
 		left: 0px;
 		display: block;
 		margin-left: auto;
-		margin-right: auto 	}
+		margin-right: auto ;
+		list-style-type:none;
+		}
 
 		#nav > a
 		{
@@ -31,11 +33,15 @@ a{
 
 		#nav li
 		{
+			left: 0px;
+			padding: 0px;
+			margin:0px;
+			list-style-type:none;
 			position: relative;
 		}
 			#nav li a
-			{					text-decoration: none;
-
+			{					
+				text-decoration: none;
 				color: #fff;
 				display: block;
 			}
@@ -70,12 +76,14 @@ a{
 		}
 			#nav > ul > li
 			{
-				width: 25%;
+			list-style-type:none;
+				width: 20%;
 				height: 100%;
 				float: left;
 			}
 				#nav > ul > li > a
 				{
+				list-style-type:none;
 					text-decoration: none;
 					height: 100%;
 					font-size: 1.5em; /* 24 */
@@ -97,6 +105,7 @@ a{
 
 			#nav li ul
 			{
+				padding:0px;
 				background-color: #555555;
 				display: none;
 				position: absolute;
@@ -114,6 +123,7 @@ a{
 					}
 					#nav li ul a
 					{
+					list-style-type:none;
 					text-decoration: none;
 						font-size: 1.25em; /* 20 */
 						/*border-top: 1px solid #e15a1f;*/
