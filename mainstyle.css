@@ -18,12 +18,18 @@ a{
 }
 
 #dinologo {
-   background-image: url('images/dinosaurCLear.gif');
-   float:left;
+	background-image: url('images/dinosaurCLear.gif');
+	float:left;
+	top: 200px;
+	left: 0px;
+	height:290px;
+	width:386px;
 }
 
 #dinologo:hover {
-   background-image: url('images/dinosaurGRAY.gif');
+	background-image: url('images/dinosaurGRAY.gif');
+	height:290px;
+	width:386px;
 }
 
 	#nav
