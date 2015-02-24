@@ -17,6 +17,15 @@ a{
 
 }
 
+#dinologo {
+   background-image: url('images/dinosaurCLear.gif');
+   float:left;
+}
+
+#dinologo:hover {
+   background-image: url('images/dinosaurGRAY.gif');
+}
+
 	#nav
 	{
 		padding: 0px 0px 0px 0px !important;
@@ -235,7 +244,7 @@ a{
 			#nav li ul
 			{
 				position: static;
-				padding: 1.25em; /* 20 */
+				padding: 1em; /* 20 */
 				padding-top: 0;
 			}
 	}
