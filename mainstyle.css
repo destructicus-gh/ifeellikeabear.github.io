@@ -1,4 +1,4 @@
-	@font-face {
+@font-face {
 		font-family: "FiraSans";
 		src: url("fira-sans/FiraSansRegular.otf") format("opentype");
 }
@@ -23,7 +23,7 @@ a{
 		margin: 0px !important;
 		height:0px;
 		width: 100%;
-		font-family: 'Open Sans', sans-serif;
+		/*font-family: 'Open Sans', sans-serif;*/
 		font-weight: 400;
 		position: absolute;
 		top: 0px;
