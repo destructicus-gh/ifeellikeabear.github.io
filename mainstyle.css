@@ -1,15 +1,18 @@
+	@font-face {
+		font-family: "FiraSans";
+		src: url("fira-sans/FiraSansRegular.otf") format("opentype");
+}
+
 body
 	{
 		display: inline;
 		margin:0;
 		padding: 0;
-		background-color:#888888
+		background-color:#888888;
+		font-family: "FiraSans";
 	}
 	
-	@font-face {
-		font-family: GraublauWeb;
-		src: url("fira-sans/FiraSansRegular.otf") format("opentype");
-}
+
 a{
 
 }
