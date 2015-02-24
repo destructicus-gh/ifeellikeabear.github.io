@@ -21,10 +21,20 @@ a{
 
 }
 
+h1{
+ font-size: 300%;
+margin:100px 10% 0% 10%;
+	top:100px;
+}
+
 p{
-		margin:0;
-		padding: 0;
-		background-color:rgba(0, 0, 0, 0.5);
+		padding:20px;
+		margin: 25px 50% 10% 9%;
+		background-color:rgba(255, 255, 255, 0.83);
+		
+		border: 0px solid;
+		border-radius: 10px;
+		box-shadow: 10px 10px 5px rgba(205, 203, 203, 0.59);
 }
 
 

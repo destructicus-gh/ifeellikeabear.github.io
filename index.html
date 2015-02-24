@@ -11,10 +11,43 @@
 <div id="menubar"></div>
 <!--<div id="dinologo"></div>-->
 
-<h1>Working Title</h1>
+<nav id="nav" role="navigation">
+
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+            <a href="/" aria-haspopup="true">Projects</a>
+            <ul>
+                <li><a href="/">Unity</a></li>
+                <li><a href="/">Python</a></li>
+				<li><a href="/">Android</a></li>
+                <li><a href="/">Electronics</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/" aria-haspopup="true">Helpful</a>
+            <ul>
+                <li><a href="/">Android</a></li>
+                <li><a href="/">Typography</a></li>
+                <li><a href="/">Front-End</a></li>
+            </ul>
+        </li>
+		<li>
+            <a href="/" aria-haspopup="true">Art</a>
+            <ul>
+                <li><a href="/">Pictures</a></li>
+                <li><a href="/">Herp</a></li>
+                <li><a href="/">Derp</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<h1>Ryan Anders</h1>
 
 <p>
-This is a description of the purpose of the website. It's super great.</p>
+This is my website. You'll find a bunch of random things I've made. That's about it.</p>
 
 
 <script>
@@ -22,7 +55,7 @@ $( function()
 {
 	$( '#nav li:has(ul)' ).doubleTapToGo();
 });
-$( "#menubar" ).load( "menubar.html" );
+//$( "#menubar" ).load( "menubar.html" );
 </script>
 </body>
 </html>
