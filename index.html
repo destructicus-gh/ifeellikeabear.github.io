@@ -5,7 +5,6 @@
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js"></script>
-<script src="menubar.js"></script>
 
 <script>
 	$( function()
@@ -15,41 +14,11 @@
 </script>
 <body>
 
+<div id="menubar"></div>
 
-<nav id="nav" role="navigation">
-    <a href="#nav" title="Show navigation">Show navigation</a>
-    <a href="#" title="Hide navigation">Hide navigation</a>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-            <a href="/" aria-haspopup="true">Projects</a>
-            <ul>
-                <li><a href="/">Unity</a></li>
-                <li><a href="/">Python</a></li>
-				<li><a href="/">Android</a></li>
-                <li><a href="/">Electronics</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="/" aria-haspopup="true">Helpful</a>
-            <ul>
-                <li><a href="/">Android</a></li>
-                <li><a href="/">Typography</a></li>
-                <li><a href="/">Front-End</a></li>
-            </ul>
-        </li>
-		<li>
-            <a href="/" aria-haspopup="true">Art</a>
-            <ul>
-                <li><a href="/">Pictures</a></li>
-                <li><a href="/">Herp</a></li>
-                <li><a href="/">Derp</a></li>
-            </ul>
-        </li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
-
+<script>
+$( "#menubar" ).load( "menubar.html" );
+</script>
 
 </body>
 </html>

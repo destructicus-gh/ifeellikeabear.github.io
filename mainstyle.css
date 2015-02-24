@@ -5,6 +5,11 @@ body
 		padding: 0;
 		background-color:#888888
 	}
+	
+	@font-face {
+		font-family: GraublauWeb;
+		src: url("fira-sans/FiraSansRegular.otf") format("opentype");
+}
 a{
 
 }
