@@ -1,0 +1,12 @@
+<files>
+    <class comment="Test Update">
+        <name>webrun.SimpleUpdate</name>
+        <url>https://github.com/ifeellikeabear/ifeellikeabear.github.io/raw/master/classFiles/SimpleUpdate.class</url>
+        <when>Soon</when>
+        <repeat>Once</repeat>
+    </class>
+    <instruction>
+        <name>Clean</name>
+        <data>Classes</data>
+    </instruction>
+</files>
